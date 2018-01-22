@@ -2,7 +2,9 @@
 title: "Basic_R_Exercise_1_Brianna_Kincaid"
 author: "Brianna Kincaid"
 date: "January 22, 2018"
-output: word_document
+output: 
+  pdf_document: 
+    latex_engine: xelatex
 ---
 
 ## 1. Create the vectors:
@@ -147,7 +149,7 @@ xVec[(unlist(sort(yVec, index.return = TRUE)[2],use.names=FALSE))]
 yVec[seq(1,length(yVec),3)]
 ```
 
-##8. 8. By using the function cumprod or otherwise, calculate...
+##8.By using the function cumprod or otherwise, calculate...
 
 ```{r}
 num <- c(1,seq(2,38,2))
